@@ -22,11 +22,37 @@ text-align: center;
 	padding-bottom: 5px;
 	color: #f9f9f9;	
 }
+	@media (max-width: 749px) {
+		.main-body{ 
+		padding: 30px 6.2%;
+
+		margin: 0 25px !important;
+
+	}}
+
+
+	@media (min-width: 750px) {
+		.main-body{ max-width: 750px;
+	padding: 30px 6.2%;
+
+	margin: 0 auto;
+
+	}}
+
+@media (max-width: 499px) {
 .logo{
 	text-align: center;
 	margin: 0 auto;
 	padding-bottom: 30px;
-}
+
+}}
+
+@media (min-width: 500px) {
+.logo{
+	text-align: right;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}}
 .smalll{
 
 	font-size: 80%;
@@ -93,7 +119,7 @@ text-align: center;
 }
 
 .main-body{ max-width: 750px;
-	padding: 30px 100px;
+	padding: 30px 6.2%;
 
 	margin: 0 auto;
 
