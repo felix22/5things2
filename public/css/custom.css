@@ -1,8 +1,29 @@
 
 .header{
-	min-height: 8px;
+	min-height: 2px;
+	background-color: #2e3639;
+}
+.header2{
+	min-height: 58px;
 	background-color: #2e3639;
 	margin-bottom: 30px;
+}
+.header3-container{	
+	max-width: 1020px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.header3{
+	min-height: 80px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding-top: 17px;
+}
+.new-body{
+	max-width: 980px;
+	margin: 0 auto;
 }
 
 .centers{
@@ -41,7 +62,8 @@ text-align: center;
 
 @media (max-width: 499px) {
 .logo{
-	text-align: center;
+	float: left;
+	text-align: left;
 	margin: 0 auto;
 	padding-bottom: 30px;
 
@@ -49,7 +71,8 @@ text-align: center;
 
 @media (min-width: 500px) {
 .logo{
-	text-align: right;
+	float: left;
+	text-align: left;
 	margin: 0 auto;
 	padding-bottom: 30px;
 }}
@@ -71,7 +94,7 @@ text-align: center;
 .header p {
 	text-align: center;
 	font-size: 18px;
-	font-family: "opensans";
+	font-family: "opensans", opensans, Arial;
 }
 .b-heading{}
 .b-heading h1 {
@@ -171,4 +194,37 @@ strong{
 
 .bgg{
 	background-color: red;
+}
+
+
+
+.login-red{
+	float: right;
+	margin-top: 13px;
+}
+
+.login-red ul {list-style-type: none; }
+.login-red li {display: inline;}
+
+.login-red a {
+	padding: 8px 20px;
+	color: #2e3639;
+	border: solid #2e3639 2px;
+	border-radius: 4px;
+	font-family:  Arial, sans-serif;
+	font-weight: 400;
+	}
+	.contactt{
+		background-color: #2e3639 !important;
+	color: #fff !important;
+	}
+
+.login-red a:hover{
+	background-color: #2e3639;
+	color: #fff;
+}
+
+.login-red a:active{
+	background-color: #2e3639;
+	color: #fff;
 }
